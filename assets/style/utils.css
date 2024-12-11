@@ -1,0 +1,179 @@
+:root {
+  --dark-green: #1f4037;
+  --light-green: #2e6053;
+  --gradient: linear-gradient(
+    90deg,
+    rgba(46, 96, 83, 1) 0%,
+    rgba(39, 82, 72, 1) 50%,
+    rgba(31, 64, 55, 1) 100%
+  );
+  --bg: #f3f3f3;
+  --white: #ffffff;
+  --light-white: #ffffffa1;
+  --black: #000000;
+  --grey: #d9d9d9;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-8-12 {
+  padding: 8px 12px;
+}
+
+.p-8-22 {
+  padding: 8px 22px;
+}
+
+.p-15-20 {
+  padding: 15px 20px;
+}
+
+.br-15 {
+  border-radius: 15px;
+}
+
+.button {
+  text-align: center;
+}
+
+.button-primary {
+  background-color: var(--dark-green);
+  color: var(--white);
+}
+
+.button-primary a {
+  color: var(--white);
+}
+
+.button-secondary {
+  background-color: var(--white);
+  color: var(--dark-green);
+}
+
+.button-secondary a {
+  color: var(--dark-green);
+}
+
+.button-tertiary {
+  border: solid 2px var(--dark-green);
+  color: var(--dark-green);
+}
+
+.button-tertiary a {
+  color: var(--dark-green);
+}
+
+.flex {
+  display: flex;
+}
+
+.al-c {
+  align-items: center;
+}
+
+.js-c {
+  justify-content: center;
+}
+
+.js-sp {
+  justify-content: space-between;
+}
+
+.js-sa {
+  justify-content: space-around;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+.gap-25 {
+  gap: 25px;
+}
+
+.gap-35 {
+  gap: 35px;
+}
+
+.color-green {
+  color: var(--dark-green);
+}
+
+.color-white {
+  color: var(--white);
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.m-xy-35 {
+  margin: 35px 0;
+}
+
+.max-680 {
+  max-width: 680px;
+}
+
+.max-1080 {
+  max-width: 1080px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.bg-green {
+  background-color: var(--dark-green);
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+.mxy-20 {
+  margin: 20px 0;
+}
+
+.my-50 {
+  margin-top: 50px;
+}
+
+.fw-400 {
+  font-weight: 400;
+}

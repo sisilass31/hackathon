@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 200ms ease;
+}
+
+/* navbar */
+
+.navbar-container {
+  height: 60px;
+}
+
+.navlinks:hover {
+  color: var(--black);
+}
+
+.buttonlog {
+  width: 150px;
+  height: 35px;
+}
+
+.logo-img {
+  width: 30px;
+}
+
+.logo h3 {
+  text-transform: uppercase;
+  color: var(--dark-green);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* navbar */
+
+/* top accueil */
+
+.containertop-box {
+  background: var(--gradient);
+}
+
+.containertop {
+  height: 450px;
+  max-width: 895px;
+}
+
+.containertop h1 {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+/* top accueil */
+
+/* abonnements */
+
+.offre-title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.cards {
+  width: 335px;
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.check-green {
+  background-color: var(--dark-green);
+  color: var(--white);
+  border-radius: 50%;
+  padding: 4px;
+  font-size: 12px;
+}
+
+.check-white {
+  background-color: var(--white);
+  color: var(--dark-green);
+  border-radius: 50%;
+  padding: 4px;
+  font-size: 12px;
+}
+
+.price {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+/* abonnements */
+
+/* faq */
+
+.section-faq {
+  padding: 50px 25px;
+}
+
+.sous-titre-faq {
+  max-width: 850px;
+  text-align: center;
+  color: var(--black);
+}
+
+.faq-container {
+  gap: 10px;
+  padding-top: 35px;
+}
+
+.faq-item {
+  background-color: var(--grey);
+  color: var(--dark-green);
+  border-radius: 10px;
+  padding: 18px 22px;
+  align-items: start;
+  text-align: start;
+  transition: background-color 0.3s ease;
+}
+
+.faq-item.active {
+  background-color: var(--dark-green);
+}
+
+.faq-item.active {
+  color: var(--white);
+}
+
+.faq-item h4 {
+  height: 34px;
+}
+
+.desc-faq {
+  text-align: initial;
+  width: 72%;
+}
+
+.desc-faq p {
+  color: var(--light-white);
+  font-size: 14px;
+  padding-top: 8px;
+  display: none;
+}
+
+.faq-item.active .desc-faq p {
+  display: block;
+}
+
+.voir-plus-faq {
+  background-color: var(--white);
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.voir-plus-faq i {
+  font-size: 18px;
+  transform: rotateZ(-45deg);
+  transition: transform 0.3s ease;
+}
+
+.faq-item.active .voir-plus-faq i {
+  transform: rotateZ(135deg);
+}
+
+.faq-item.active .voir-plus-faq i {
+  color: var(--dark-green);
+}
+
+.faq-item .voir-plus-faq i {
+  color: var(--dark-green);
+}
+
+/* faq */
