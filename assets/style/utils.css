@@ -32,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .p-10 {
@@ -92,6 +92,10 @@ h6 {
 
 .al-c {
   align-items: center;
+}
+
+.al-st {
+  align-items: start;
 }
 
 .js-c {
@@ -162,6 +166,10 @@ h6 {
   background-color: var(--dark-green);
 }
 
+.bg-gradient {
+  background: var(--gradient);
+}
+
 .mr-8 {
   margin-right: 8px;
 }
@@ -172,6 +180,14 @@ h6 {
 
 .my-50 {
   margin-top: 50px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-55 {
+  margin-top: 55px;
 }
 
 .fw-400 {

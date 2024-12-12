@@ -38,10 +38,6 @@
 
 /* top accueil */
 
-.containertop-box {
-  background: var(--gradient);
-}
-
 .containertop {
   height: 450px;
   max-width: 895px;
@@ -171,3 +167,33 @@
 }
 
 /* faq */
+
+/* footer */
+
+.footer-container {
+  height: 300px;
+}
+
+.footerlinks a {
+  color: var(--white);
+  font-weight: 200;
+}
+
+.footerlinks i {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--white);
+  font-size: 12px;
+}
+
+.footerlinks i:hover {
+  background-color: var(--white);
+  color: var(--dark-green);
+}
+
+/* footer */
